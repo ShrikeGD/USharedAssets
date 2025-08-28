@@ -2,10 +2,10 @@
   "name": "com.shrikegd.usharedassets",
   "version": "1.0.0",
   "displayName": "USharedAssets",
-  "description": "Shader Graph and UI / Texture Core Assets",
+  "description": "Shader Graph and UI / Texture Core Assets.\nPre 2021 Textures copyright Eric Krutten, after, Copyright Flow Fire Games.",
   "unity": "2021.3",
   "author": {
-    "name": "ShrikeGD  Eric Krutten 2025",
+    "name": "Eric Krutten",
     "url": "https://github.com/ShrikeGD"
   },
   "repository": {
@@ -18,6 +18,5 @@
     "ui",
     "unity"
   ],
-  "samples": [],
-  "dependencies": {}
+  "samples": []
 }
