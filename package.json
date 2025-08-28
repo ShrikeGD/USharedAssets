@@ -1,0 +1,23 @@
+{
+  "name": "com.shrikegd.usharedassets",
+  "version": "1.0.0",
+  "displayName": "USharedAssets",
+  "description": "Shader Graph and UI / Texture Core Assets",
+  "unity": "2021.3",
+  "author": {
+    "name": "ShrikeGD  Eric Krutten 2025",
+    "url": "https://github.com/ShrikeGD"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShrikeGD/UGems.git"
+  },
+  "keywords": [
+    "shadergraph",
+    "textures",
+    "ui",
+    "unity"
+  ],
+  "samples": [],
+  "dependencies": {}
+}
