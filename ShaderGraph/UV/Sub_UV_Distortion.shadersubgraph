@@ -534,8 +534,8 @@
     "m_ObjectId": "131ceb36f9344a67985c7d3d636fd038",
     "m_Title": "Correction",
     "m_Position": {
-        "x": 751.0,
-        "y": 1073.0
+        "x": 751.0000610351563,
+        "y": 1073.0001220703125
     }
 }
 
@@ -758,8 +758,8 @@
     "m_ObjectId": "1cc08634d86c45b0817b58650dda0ae4",
     "m_Title": "Testing",
     "m_Position": {
-        "x": -2963.0,
-        "y": 1207.0
+        "x": -2963.000244140625,
+        "y": 1207.0001220703125
     }
 }
 
@@ -1372,7 +1372,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Scale",
     "m_StageCapability": 3,
-    "m_Value": 15.0,
+    "m_Value": 25.0,
     "m_DefaultValue": 500.0,
     "m_Labels": []
 }
@@ -1383,8 +1383,8 @@
     "m_ObjectId": "624a835f62d4419dbdff266642e44005",
     "m_Title": "Amount",
     "m_Position": {
-        "x": -204.0001220703125,
-        "y": 1657.0
+        "x": -204.00015258789063,
+        "y": 1657.0001220703125
     }
 }
 
@@ -1662,7 +1662,7 @@
     "m_ObjectId": "7e5d13a9ad6f461ba3006ac5c0221f73",
     "m_Title": "We go from 0-2 to -1 -1 range now",
     "m_Position": {
-        "x": -824.0000610351563,
+        "x": -824.0003051757813,
         "y": 1660.0001220703125
     }
 }
@@ -2298,7 +2298,7 @@
     "m_Hidden": false,
     "m_PerRendererData": false,
     "m_customAttributes": [],
-    "m_Value": 0.46000000834465029,
+    "m_Value": 0.029999999329447748,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -2322,8 +2322,8 @@
     "m_ObjectId": "c4cad93be22043129ef3ee8ed6ab1565",
     "m_Title": "We go from 0-1 to 0-2 range",
     "m_Position": {
-        "x": -1214.0,
-        "y": 1660.0
+        "x": -1214.000244140625,
+        "y": 1660.0001220703125
     }
 }
 

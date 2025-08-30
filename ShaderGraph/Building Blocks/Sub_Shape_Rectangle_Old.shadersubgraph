@@ -4956,7 +4956,7 @@
     "m_Title": "Get the center",
     "m_Position": {
         "x": -6031.0,
-        "y": -4338.0
+        "y": -4337.99951171875
     }
 }
 
@@ -5905,7 +5905,7 @@
     "m_Title": "Corner Radius",
     "m_Position": {
         "x": -6535.0,
-        "y": -3572.0
+        "y": -3571.999755859375
     }
 }
 
@@ -5964,7 +5964,7 @@
     "m_Title": "There are higher range negative values present",
     "m_Position": {
         "x": -4273.0,
-        "y": -3021.0
+        "y": -3020.999755859375
     }
 }
 
@@ -6209,7 +6209,7 @@
     "m_Title": "Relative Size for Stroke - Adjusts SDF for border",
     "m_Position": {
         "x": -7425.0,
-        "y": -2834.0
+        "y": -2833.999755859375
     }
 }
 
@@ -6259,7 +6259,7 @@
     "m_Title": "Abs turns all negative values into positive",
     "m_Position": {
         "x": -5681.0,
-        "y": -4338.0
+        "y": -4337.99951171875
     }
 }
 
@@ -6564,7 +6564,7 @@
     "m_Title": "To scale the ring by object size, just divide the stroke with the scale",
     "m_Position": {
         "x": -4590.0,
-        "y": -1019.0
+        "y": -1018.9999389648438
     }
 }
 
