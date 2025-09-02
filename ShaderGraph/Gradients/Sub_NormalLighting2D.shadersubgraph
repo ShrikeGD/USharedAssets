@@ -17,13 +17,12 @@
         },
         {
             "m_Id": "00e8b358346c439f853ee0145fabb8c3"
-        }
-    ],
-    "m_Keywords": [
+        },
         {
-            "m_Id": "7b60e213c3f448c89dc820ac415d83b3"
+            "m_Id": "644e716a03064e35a8db80027a302c77"
         }
     ],
+    "m_Keywords": [],
     "m_Dropdowns": [],
     "m_CategoryData": [
         {
@@ -36,9 +35,6 @@
         },
         {
             "m_Id": "779aaa2210314ba99a9bd4a597ebf9f8"
-        },
-        {
-            "m_Id": "daeeff46179d44f997586a6ad5cfd851"
         },
         {
             "m_Id": "43fac65b414e4eea9bbc4794a114c332"
@@ -132,6 +128,9 @@
         },
         {
             "m_Id": "8d58bca4b47448239b221db0a8b92a48"
+        },
+        {
+            "m_Id": "6a8cc4484648458eb203d779cd6e166b"
         }
     ],
     "m_GroupDatas": [
@@ -369,6 +368,20 @@
                     "m_Id": "1329e16b442043c2a5d33bed0796eee1"
                 },
                 "m_SlotId": 2
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "6a8cc4484648458eb203d779cd6e166b"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "43fac65b414e4eea9bbc4794a114c332"
+                },
+                "m_SlotId": 0
             }
         },
         {
@@ -626,20 +639,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "daeeff46179d44f997586a6ad5cfd851"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "43fac65b414e4eea9bbc4794a114c332"
-                },
-                "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "e16aa2502cc34f5cbc2b49527b4d27f6"
                 },
                 "m_SlotId": 1
@@ -875,8 +874,8 @@
     "m_ObjectId": "045a48966ea646be9aa4f0d55c43a4d3",
     "m_Title": "Light Angle",
     "m_Position": {
-        "x": -4297.0,
-        "y": -1143.9998779296875
+        "x": -4143.00048828125,
+        "y": -1114.0
     }
 }
 
@@ -2178,6 +2177,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "564207c38c48489fa13cd2ec154a2135",
+    "m_Id": 0,
+    "m_DisplayName": "LightAngle360",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SamplerStateMaterialSlot",
     "m_ObjectId": "565d3f67d1ea4eee843edcc6fced295d",
     "m_Id": 3,
@@ -2370,6 +2384,46 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "644e716a03064e35a8db80027a302c77",
+    "m_Guid": {
+        "m_GuidSerialized": "39e29f51-1475-4414-bfb4-f369304a3f32"
+    },
+    "m_Name": "LightAngle360",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "LightAngle360",
+    "m_DefaultReferenceName": "_LightAngle360",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
+    "m_Value": 40.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    },
+    "m_SliderType": 0,
+    "m_SliderPower": 3.0,
+    "m_EnumType": 0,
+    "m_CSharpEnumString": "",
+    "m_EnumNames": [
+        "Default"
+    ],
+    "m_EnumValues": [
+        0
+    ]
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "64d1608defb642489b994f9b707062c2",
@@ -2541,6 +2595,42 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "6a8cc4484648458eb203d779cd6e166b",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -4233.5986328125,
+            "y": -1121.7081298828125,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "564207c38c48489fa13cd2ec154a2135"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "644e716a03064e35a8db80027a302c77"
     }
 }
 
@@ -2798,34 +2888,9 @@
     "m_ObjectId": "79bf4f6e10b64175be1bab2945a58283",
     "m_Title": "Pseudo Harder Shadow",
     "m_Position": {
-        "x": -2357.0,
+        "x": -2357.00048828125,
         "y": 169.0
     }
-}
-
-{
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
-    "m_ObjectId": "7b60e213c3f448c89dc820ac415d83b3",
-    "m_Guid": {
-        "m_GuidSerialized": "26e4c2a9-330d-4159-a533-b42c0a9fa935"
-    },
-    "m_Name": "Debug",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Debug",
-    "m_DefaultReferenceName": "_DEBUG",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_KeywordType": 0,
-    "m_KeywordDefinition": 0,
-    "m_KeywordScope": 0,
-    "m_KeywordStages": 63,
-    "m_Entries": [],
-    "m_Value": 0,
-    "m_IsEditable": true
 }
 
 {
@@ -3544,21 +3609,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "b17a499cf7b24a628c9b75c373506b66",
-    "m_Id": 0,
-    "m_DisplayName": "Out",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.RedirectNodeData",
     "m_ObjectId": "b360c8c487024a1a97b26ee6ffd336eb",
     "m_Group": {
@@ -3642,7 +3692,7 @@
     "m_Name": "",
     "m_ChildObjectList": [
         {
-            "m_Id": "7b60e213c3f448c89dc820ac415d83b3"
+            "m_Id": "644e716a03064e35a8db80027a302c77"
         },
         {
             "m_Id": "b9515a011e9c4373b782a9def8521848"
@@ -3935,7 +3985,7 @@
     "m_Title": "Highlight / Shading",
     "m_Position": {
         "x": -1612.000244140625,
-        "y": -469.0
+        "y": -469.00006103515627
     }
 }
 
@@ -4124,44 +4174,6 @@
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
-    }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.SliderNode",
-    "m_ObjectId": "daeeff46179d44f997586a6ad5cfd851",
-    "m_Group": {
-        "m_Id": "045a48966ea646be9aa4f0d55c43a4d3"
-    },
-    "m_Name": "Slider",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -4272.0,
-            "y": -1084.9998779296875,
-            "width": 232.000244140625,
-            "height": 146.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "b17a499cf7b24a628c9b75c373506b66"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Value": {
-        "x": 359.1700134277344,
-        "y": 0.0,
-        "z": 360.0
     }
 }
 
@@ -4402,7 +4414,7 @@
     "m_StageCapability": 3,
     "m_BareResource": false,
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"1ae30922e9e91464d85f8ff3b4c2ef90\",\"type\":3}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "m_DefaultType": 3
