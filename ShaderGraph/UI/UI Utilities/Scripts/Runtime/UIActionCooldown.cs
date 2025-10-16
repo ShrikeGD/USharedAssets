@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System;
-using MTSDF.Text;
+
 
 [ExecuteAlways]
 [DisallowMultipleComponent]
@@ -26,7 +26,7 @@ public sealed class ActionCooldownShader : MonoBehaviour
     [Header("Stacks (Red)")]
     [Min(0)] [SerializeField] private int stacks = 0;      // raw (may exceed 9)
     [SerializeField] private bool showTextWhenStacksExceedNine = true;
-    [SerializeField] private MTSDF_Text stacksOverflowText; // optional SDF text for >9
+    [SerializeField] private TextMeshProUGUI stacksOverflowText; // optional SDF text for >9
     [SerializeField] private string overflowFormat = "{0}";
 
     // Runtime state
