@@ -2536,7 +2536,7 @@
     "m_Title": "The atlas is one dimensonal, from 0 to 10 in horizontal steps",
     "m_Position": {
         "x": -1030.0,
-        "y": 184.0000457763672
+        "y": 184.00006103515626
     }
 }
 
@@ -3277,10 +3277,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -6786.9990234375,
-            "y": -1157.0,
+            "x": -6813.0,
+            "y": -1139.9998779296875,
             "width": 143.0,
-            "height": 34.0001220703125
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -3842,8 +3842,8 @@
     "m_ObjectId": "566e72981a364bc8957cc68f134cb5cd",
     "m_Title": "Dosnt show if -1",
     "m_Position": {
-        "x": -572.99951171875,
-        "y": 1368.9998779296875
+        "x": -573.0,
+        "y": 1369.0
     }
 }
 
@@ -4187,7 +4187,7 @@
     "m_Hidden": false,
     "m_PerRendererData": false,
     "m_customAttributes": [],
-    "m_Value": 1.309999942779541,
+    "m_Value": 1.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -5537,7 +5537,7 @@
     "m_Title": "Number Selector",
     "m_Position": {
         "x": -1583.0,
-        "y": 504.9998779296875
+        "y": 505.0
     }
 }
 
@@ -8083,9 +8083,9 @@
         "m_Position": {
             "serializedVersion": "2",
             "x": 634.0,
-            "y": -612.0,
+            "y": -622.0,
             "width": 208.0,
-            "height": 302.0
+            "height": 302.0000305175781
         }
     },
     "m_Slots": [
@@ -8187,7 +8187,7 @@
     "m_ObjectId": "d70acac27508420dbd6714b776b01b9d",
     "m_Title": "Aspect Ratio",
     "m_Position": {
-        "x": -6811.9990234375,
+        "x": -6838.0,
         "y": -1298.9998779296875
     }
 }
@@ -8202,7 +8202,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "R",
     "m_StageCapability": 3,
-    "m_Value": 0.0,
+    "m_Value": 1.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
@@ -9291,7 +9291,7 @@
     "m_Title": "Select Grid",
     "m_Position": {
         "x": -5704.99951171875,
-        "y": -1798.9998779296875
+        "y": -1799.0
     }
 }
 
