@@ -8,7 +8,7 @@ using System;
 [DisallowMultipleComponent]
 public sealed class ActionCooldownShader : MonoBehaviour
 {
-    [Header("CANVAS NEEDS TO HAVE VERTEX GAMMA ENABLED!")]
+    [Header("Image")]
     [SerializeField] private Image targetImage;
 
     [Header("Cooldown (Blue 0.5→1)")]

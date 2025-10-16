@@ -215,6 +215,9 @@
         },
         {
             "m_Id": "9d810e9c57b54b06ac987e7409e3bc60"
+        },
+        {
+            "m_Id": "c2048d00bad5495994acd8904dedd203"
         }
     ],
     "m_GroupDatas": [
@@ -305,20 +308,6 @@
                     "m_Id": "a81dc945caca41b79047ddcd740d15e4"
                 },
                 "m_SlotId": 2
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "071377e5895544d1aeaeb58025488c82"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "43445c11cbfb4709bb55ce7685aed57f"
-                },
-                "m_SlotId": 3
             }
         },
         {
@@ -884,6 +873,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "9d810e9c57b54b06ac987e7409e3bc60"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "c2048d00bad5495994acd8904dedd203"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "a0860c8a25ed40d195b356c0a3269a9b"
                 },
                 "m_SlotId": 3
@@ -1019,6 +1022,34 @@
                     "m_Id": "4d7d2965ce7c405bb115e5882b8cb705"
                 },
                 "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "b5cb842075054110adf89f0fe4e83523"
+                },
+                "m_SlotId": 4
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "c2048d00bad5495994acd8904dedd203"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "c2048d00bad5495994acd8904dedd203"
+                },
+                "m_SlotId": 2
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "43445c11cbfb4709bb55ce7685aed57f"
+                },
+                "m_SlotId": 3
             }
         },
         {
@@ -1376,6 +1407,30 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
+    "m_ObjectId": "02f4f89ef1c0426bbd55d325efbd7fb3",
+    "m_Id": 1,
+    "m_DisplayName": "B",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "B",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0,
+        "w": 2.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
     "m_ObjectId": "038a756ce1f242058a33c07b9ed1fa52",
     "m_Group": {
@@ -1548,7 +1603,7 @@
     "m_Title": "Alpha",
     "m_Position": {
         "x": 301.0,
-        "y": 1089.0001220703125
+        "y": 1088.9998779296875
     }
 }
 
@@ -2338,8 +2393,8 @@
     "m_ObjectId": "17bb897b986b4bba9acc4222307b66cd",
     "m_Title": "Numbers and charges",
     "m_Position": {
-        "x": 1304.0001220703125,
-        "y": -100.99996948242188
+        "x": 1304.0,
+        "y": -100.99998474121094
     }
 }
 
@@ -2350,7 +2405,7 @@
     "m_Title": "Mask from image",
     "m_Position": {
         "x": 1125.0,
-        "y": -1091.0
+        "y": -1090.999755859375
     }
 }
 
@@ -4898,7 +4953,7 @@
     "m_Title": "TO DO; Alpha = flash overlay. Activation Effect",
     "m_Position": {
         "x": 4453.0,
-        "y": -452.0000305175781
+        "y": -452.0
     }
 }
 
@@ -4909,7 +4964,7 @@
     "m_Title": "Cooldown",
     "m_Position": {
         "x": -2568.999755859375,
-        "y": -394.99993896484377
+        "y": -394.9999694824219
     }
 }
 
@@ -4994,8 +5049,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3873.000244140625,
-            "y": 1315.0001220703125,
+            "x": -3864.0,
+            "y": 1276.0,
             "width": 126.0,
             "height": 118.0
         }
@@ -5584,7 +5639,7 @@
         "r": 1.0,
         "g": 1.0,
         "b": 1.0,
-        "a": 0.24705882370471955
+        "a": 0.5098039507865906
     },
     "isMainColor": false,
     "m_ColorMode": 0
@@ -6237,8 +6292,8 @@
     "m_ObjectId": "a0f22efe360e46b7a74311d90e373c20",
     "m_Title": "Debug",
     "m_Position": {
-        "x": -5215.00048828125,
-        "y": 926.0000610351563
+        "x": -5214.99951171875,
+        "y": 925.9998779296875
     }
 }
 
@@ -6456,7 +6511,7 @@
     "m_Title": "Under 0.1 is red charges overlay",
     "m_Position": {
         "x": -3732.999755859375,
-        "y": -561.9999389648438
+        "y": -562.0
     }
 }
 
@@ -7162,6 +7217,45 @@
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PowerNode",
+    "m_ObjectId": "c2048d00bad5495994acd8904dedd203",
+    "m_Group": {
+        "m_Id": "f36a5e95db51471490032fdfaca7e974"
+    },
+    "m_Name": "Power",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -3864.0,
+            "y": 1412.0,
+            "width": 126.0,
+            "height": 118.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "fdcf355f33d643b5a18f50e471667513"
+        },
+        {
+            "m_Id": "02f4f89ef1c0426bbd55d325efbd7fb3"
+        },
+        {
+            "m_Id": "df0c2dd9abc94fcb9660524235d6c195"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": false,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
     }
 }
 
@@ -8045,7 +8139,7 @@
         "r": 0.4431372582912445,
         "g": 0.03529411926865578,
         "b": 0.0,
-        "a": 0.3333333432674408
+        "a": 0.729411780834198
     },
     "isMainColor": false,
     "m_ColorMode": 0
@@ -8246,6 +8340,30 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
+    "m_ObjectId": "df0c2dd9abc94fcb9660524235d6c195",
+    "m_Id": 2,
+    "m_DisplayName": "Out",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "df9fce511981483f986b58caaf5f5916",
     "m_Id": 1,
@@ -8389,7 +8507,7 @@
         "r": 0.11372549086809159,
         "g": 0.13333334028720857,
         "b": 0.22745098173618318,
-        "a": 0.6000000238418579
+        "a": 0.7019608020782471
     },
     "isMainColor": false,
     "m_ColorMode": 0
@@ -8780,8 +8898,8 @@
     "m_ObjectId": "f06a1df4fe1d4c648f008c7f1da7f24e",
     "m_Title": "Activation Bar",
     "m_Position": {
-        "x": -1346.9998779296875,
-        "y": -394.99993896484377
+        "x": -1347.0,
+        "y": -394.9999694824219
     }
 }
 
@@ -8868,8 +8986,8 @@
     "m_ObjectId": "f36a5e95db51471490032fdfaca7e974",
     "m_Title": "Linear to Gamma Conversion (if you dont do this, the canvas needs vertex color gamma bool on)",
     "m_Position": {
-        "x": -4425.0,
-        "y": 855.9999389648438
+        "x": -4424.99951171875,
+        "y": 855.9998779296875
     }
 }
 
@@ -9070,6 +9188,30 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
+    "m_ObjectId": "fdcf355f33d643b5a18f50e471667513",
+    "m_Id": 0,
+    "m_DisplayName": "A",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "A",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
     }
 }
 
