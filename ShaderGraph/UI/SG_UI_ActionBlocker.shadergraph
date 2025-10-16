@@ -5625,7 +5625,7 @@
     "m_RefNameGeneratedByDisplayName": "ActivationColor",
     "m_DefaultReferenceName": "_ActivationColor",
     "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": false,
+    "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
@@ -8125,7 +8125,7 @@
     "m_RefNameGeneratedByDisplayName": "Disabledcolor",
     "m_DefaultReferenceName": "_Disabledcolor",
     "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": false,
+    "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
@@ -8139,7 +8139,7 @@
         "r": 0.4431372582912445,
         "g": 0.03529411926865578,
         "b": 0.0,
-        "a": 0.729411780834198
+        "a": 0.5490196347236633
     },
     "isMainColor": false,
     "m_ColorMode": 0
@@ -8493,7 +8493,7 @@
     "m_RefNameGeneratedByDisplayName": "CooldownColor",
     "m_DefaultReferenceName": "_CooldownColor",
     "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": false,
+    "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
