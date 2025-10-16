@@ -2506,8 +2506,8 @@
     "m_ObjectId": "2f7356035bc3486cb782a46a63a2bc6d",
     "m_Title": "The atlas is one dimensonal, from 0 to 10 in horizontal steps",
     "m_Position": {
-        "x": -1030.0003662109375,
-        "y": 183.99993896484376
+        "x": -1029.99951171875,
+        "y": 183.9998016357422
     }
 }
 
@@ -3272,10 +3272,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -6773.99951171875,
-            "y": -1145.0,
+            "x": -6786.9990234375,
+            "y": -1157.0,
             "width": 143.0,
-            "height": 34.0
+            "height": 34.0001220703125
         }
     },
     "m_Slots": [
@@ -3837,8 +3837,8 @@
     "m_ObjectId": "566e72981a364bc8957cc68f134cb5cd",
     "m_Title": "Dosnt show if -1",
     "m_Position": {
-        "x": -573.0000610351563,
-        "y": 1369.000244140625
+        "x": -572.9992065429688,
+        "y": 1369.0
     }
 }
 
@@ -5559,8 +5559,8 @@
     "m_ObjectId": "8c2b5f02b8c64e56b675370dd96d234d",
     "m_Title": "Number Selector",
     "m_Position": {
-        "x": -1583.0003662109375,
-        "y": 505.0
+        "x": -1582.99951171875,
+        "y": 504.999755859375
     }
 }
 
@@ -8134,8 +8134,8 @@
     "m_ObjectId": "d70acac27508420dbd6714b776b01b9d",
     "m_Title": "Aspect Ratio",
     "m_Position": {
-        "x": -6798.99951171875,
-        "y": -1299.0
+        "x": -6811.9990234375,
+        "y": -1298.9998779296875
     }
 }
 
@@ -9222,7 +9222,7 @@
     "m_ObjectId": "fe3e4ddf40554b1f9b20addfd457b48f",
     "m_Title": "Select Grid",
     "m_Position": {
-        "x": -5705.0009765625,
+        "x": -5704.99951171875,
         "y": -1799.0
     }
 }
