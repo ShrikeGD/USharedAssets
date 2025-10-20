@@ -2634,8 +2634,8 @@
     "m_ObjectId": "2f7356035bc3486cb782a46a63a2bc6d",
     "m_Title": "The atlas is one dimensonal, from 0 to 10 in horizontal steps",
     "m_Position": {
-        "x": -1030.0,
-        "y": 184.0
+        "x": -1029.9998779296875,
+        "y": 183.99993896484376
     }
 }
 
@@ -4049,8 +4049,8 @@
     "m_ObjectId": "566e72981a364bc8957cc68f134cb5cd",
     "m_Title": "Dosnt show if -1",
     "m_Position": {
-        "x": -573.0,
-        "y": 1369.00048828125
+        "x": -573.0000610351563,
+        "y": 1368.999755859375
     }
 }
 
@@ -5786,8 +5786,8 @@
     "m_ObjectId": "8c2b5f02b8c64e56b675370dd96d234d",
     "m_Title": "Number Selector",
     "m_Position": {
-        "x": -1583.0,
-        "y": 505.000244140625
+        "x": -1582.9998779296875,
+        "y": 504.9997253417969
     }
 }
 
@@ -8583,8 +8583,8 @@
     "m_ObjectId": "d70acac27508420dbd6714b776b01b9d",
     "m_Title": "Aspect Ratio",
     "m_Position": {
-        "x": -6855.0,
-        "y": -1299.0001220703125
+        "x": -6854.99951171875,
+        "y": -1299.0
     }
 }
 

@@ -68,8 +68,8 @@ Material:
     - _ActivationColor: {r: 1, g: 1, b: 1, a: 0.2470588}
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 0}
-    - _CooldownColor: {r: 0.11372546, g: 0.13333327, b: 0.22745097, a: 0.7098039}
-    - _Disabledcolor: {r: 0.44313726, g: 0.03529412, b: 0, a: 0.7215686}
+    - _CooldownColor: {r: 0.11372543, g: 0.13333324, b: 0.22745094, a: 0.6039216}
+    - _Disabledcolor: {r: 0.4431372, g: 0.03529412, b: 0, a: 0.44705883}
     - _MoveCharges: {r: 0, g: 0, b: 0, a: 0}
     - _Offset_1: {r: -0.1, g: -0.1, b: 0, a: 0}
     - _Tiling_1: {r: 1.2, g: 1.2, b: 0, a: 0}
