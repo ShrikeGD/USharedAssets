@@ -208,9 +208,6 @@
             "m_Id": "b2763b11d20c48e49d0fbf8aac9b3f59"
         },
         {
-            "m_Id": "aabd93bb11d3458c8d7f5a83f83461b8"
-        },
-        {
             "m_Id": "8164d73fe37d46039d9a86d314ce7f54"
         },
         {
@@ -4717,8 +4714,8 @@
     "m_ObjectId": "656cb299df224f929987f95662bcf68b",
     "m_Title": "Cooldown",
     "m_Position": {
-        "x": -2569.0,
-        "y": -395.0000305175781
+        "x": -2568.999755859375,
+        "y": -394.9999694824219
     }
 }
 
@@ -5595,21 +5592,6 @@
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "9096c6cce8a146d994893fc9ae911b51",
-    "m_Id": 0,
-    "m_DisplayName": "Out",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
 }
 
 {
@@ -6514,7 +6496,7 @@
     "m_ShaderOutputName": "B",
     "m_StageCapability": 3,
     "m_Value": {
-        "e00": 0.30000001192092898,
+        "e00": 0.5,
         "e01": 2.0,
         "e02": 2.0,
         "e03": 2.0,
@@ -6548,44 +6530,6 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
-    }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.SliderNode",
-    "m_ObjectId": "aabd93bb11d3458c8d7f5a83f83461b8",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Slider",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -3195.0,
-            "y": 379.0000305175781,
-            "width": 231.999755859375,
-            "height": 145.99996948242188
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "9096c6cce8a146d994893fc9ae911b51"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Value": {
-        "x": 0.5299999713897705,
-        "y": 0.0,
-        "z": 1.0
     }
 }
 
@@ -9007,7 +8951,7 @@
     "m_ShaderOutputName": "B",
     "m_StageCapability": 3,
     "m_Value": {
-        "e00": 2.0,
+        "e00": 1.5,
         "e01": 2.0,
         "e02": 2.0,
         "e03": 2.0,
